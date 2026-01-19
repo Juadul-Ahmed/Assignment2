@@ -199,3 +199,108 @@ background-color: transparent;
   font-size: 1rem;
   font-weight: 400;
 }
+
+
+/* service */
+.techwave-container{
+  background: #230E3D;
+  color: white;
+}
+.premium{
+  grid-area: audio;
+}
+.mobile{
+  grid-area: mobile;
+}
+.global{
+  grid-area: global;
+}
+.interview{
+  grid-area: interview;
+}
+.resources{
+  grid-area: resources;
+}
+.service-container{
+  display: grid;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-areas: 
+                      "audio     mobile    mobile"
+                      "audio     global    global"
+                      "interview interview resources";
+}
+.card{
+  background: #250D44;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding: 30px;
+}
+.service-title{
+  text-align: center;
+  padding-top: 120px; 
+  margin-bottom: 40px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.service-heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.service-p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* featured */
+.featured-episodes{
+  max-width: 1200px;
+  padding-top: 120px;
+  margin: 0 auto;
+}
+
+.episode-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.video h1{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.video p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+    padding: 24px;
+}
+.video{
+  background-color: #250D44;
+  margin-bottom: 120px;
+  border-radius: 10px;
+  
+}
+.video .time{
+  color: #00FF88;
+  margin-right: 6px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.featured-episode{
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+  font-size: 3rem;
+}
