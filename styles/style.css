@@ -346,3 +346,38 @@ background-color: transparent;
 .host-title img{
   margin-right: 8px;
 }
+
+.footer-section{
+  background-image: url(../assets/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1660px;
+  height: 412px;
+  margin: 0 auto;
+  margin-top: 120px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-content{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 35px;
+}
+.margin{
+  margin-right: 32px;
+}
+.footer-content h1{
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.wave{
+  color: #FB09B4;
+}
+.copyright{
+  text-align: center;
+}
